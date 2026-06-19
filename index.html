@@ -2,114 +2,71 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>母婴好物精选 | 2026最新奶粉评测 - 思思好物</title>
-<meta name="description" content="母婴好物精选，专业奶粉/纸尿裤/玩具/童装/孕产评测对比，帮你找到最适合的产品。涵盖奶粉推荐, 纸尿裤测评, 婴儿推车推荐等品类。">
-<meta name="keywords" content="奶粉推荐, 纸尿裤测评, 婴儿推车推荐, 儿童玩具, 待产包清单">
-<link rel="canonical" href="https://mom-baby.pages.dev/">
-<meta property="og:title" content="母婴好物精选 | 思思好物推荐">
-<meta property="og:description" content="专业奶粉/纸尿裤/玩具/童装/孕产评测对比，帮你省钱省心。">
-<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>👶 母婴用品评测推荐 | 思思好物 | 思思好物</title>
+<meta name="description" content="母婴用品推荐 - 思思好物推荐">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.8;color:#333;background:#f9fafb}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f5f5f5;color:#333;line-height:1.8}
+header{background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:12px 0;position:sticky;top:0;z-index:100}
+header .nav{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:15px;flex-wrap:wrap;align-items:center}
+header .nav a{color:white;text-decoration:none;font-size:14px;padding:4px 10px;border-radius:4px;transition:background .2s}
+header .nav a:hover{background:rgba(255,255,255,.2)}
+header .nav .brand{font-weight:bold;font-size:18px}
 .container{max-width:900px;margin:0 auto;padding:20px}
-header{background:linear-gradient(135deg,#ff6b35,#f7c948);color:white;padding:40px 0;text-align:center}
-header h1{font-size:2em;margin-bottom:10px}
-header p{font-size:1.1em;opacity:0.9}
-.article{background:white;border-radius:12px;padding:25px;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
-.article h2{color:#1a1a1a;font-size:1.4em;margin-bottom:12px}
-.article h2 a{color:inherit;text-decoration:none}
-.article h2 a:hover{color:#ff6b35}
-.article .meta{color:#999;font-size:0.85em;margin-bottom:10px}
-.article .excerpt{color:#555;line-height:1.8}
-.article .btn{display:inline-block;background:#ff6b35;color:white;padding:8px 20px;border-radius:6px;text-decoration:none;margin-top:12px;font-size:0.95em}
-.article .btn:hover{background:#e55a2b}
-.tags{margin-top:15px}
-.tag{display:inline-block;background:#f0f0f0;padding:4px 12px;border-radius:20px;margin:3px;font-size:0.8em;color:#666}
-footer{text-align:center;padding:40px;color:#999;font-size:0.85em}
-.sidebar{background:white;border-radius:12px;padding:20px;margin:20px 0;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
-.sidebar h3{font-size:1.1em;margin-bottom:12px;color:#1a1a1a}
-.sidebar ul{list-style:none}
-.sidebar li{padding:8px 0;border-bottom:1px solid #f0f0f0}
-.sidebar a{color:#555;text-decoration:none;font-size:0.95em}
-.sidebar a:hover{color:#ff6b35}
-@media(min-width:768px){
-.main-content{display:flex;gap:30px}
-.articles{flex:1}
-.sidebar-col{width:300px}
-}
+.hero{text-align:center;padding:40px 20px;background:white;border-radius:12px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.hero h1{font-size:2em;color:#333;margin-bottom:10px}
+.hero p{color:#888;font-size:1.1em}
+.post-list{display:grid;gap:15px}
+.post-card{background:white;border-radius:10px;padding:20px;box-shadow:0 2px 6px rgba(0,0,0,.04);transition:transform .2s,box-shadow .2s}
+.post-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.post-card h3{margin-bottom:8px;font-size:1.15em}
+.post-card h3 a{color:#333;text-decoration:none}
+.post-card h3 a:hover{color:#764ba2}
+.post-card .meta{color:#aaa;font-size:.85em}
+article{background:white;border-radius:12px;padding:30px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+article h1{font-size:1.8em;margin-bottom:15px;color:#333}
+article h2{font-size:1.3em;margin:25px 0 10px;padding-bottom:8px;border-bottom:2px solid #764ba2;color:#555}
+article h3{font-size:1.1em;margin:18px 0 8px;color:#666}
+article p{margin:12px 0}
+article img{max-width:100%;border-radius:8px;margin:15px 0}
+article table{width:100%;border-collapse:collapse;margin:15px 0;font-size:.95em}
+article table th{background:#764ba2;color:white;padding:10px 12px;text-align:left;font-weight:600}
+article table td{padding:10px 12px;border-bottom:1px solid #e0e0e0}
+article table tr:nth-child(even){background:#f9f9f9}
+article table tr:hover{background:#f0e6ff}
+article ul, article ol{margin:10px 0 10px 25px}
+article li{margin:5px 0}
+article a{color:#764ba2}
+.buy-box{background:linear-gradient(135deg,#fff3e0,#ffe0b2);border:2px solid #ff9800;border-radius:10px;padding:18px;margin:25px 0}
+.buy-box .title{font-weight:bold;color:#e65100;font-size:1.1em;margin-bottom:8px}
+.buy-box a{display:inline-block;margin:4px 10px 4px 0;padding:8px 18px;border-radius:6px;text-decoration:none;font-weight:bold;font-size:.95em}
+.buy-box .tb-link{background:#ff6b35;color:white}
+.buy-box .jd-link{background:#e4393c;color:white}
+footer{text-align:center;padding:30px;color:#aaa;font-size:.85em;background:white;margin-top:30px;border-radius:12px}
+@media(max-width:600px){.container{padding:10px}article{padding:20px}article h1{font-size:1.4em}}
 </style>
 </head>
 <body>
-<header>
+<header><div class="nav">
+<a href="/" class="brand">🏠 思思好物</a>
+<a href="https://wxy0000058.github.io/3c-digital/">💻 数码</a>
+<a href="https://wxy0000058.github.io/home-life/">🛋️ 家居</a>
+<a href="https://wxy0000058.github.io/beauty-care/">💄 美妆</a>
+<a href="https://wxy0000058.github.io/sports-outdoor/">⚽ 运动</a>
+<a href="https://wxy0000058.github.io/mom-baby/">👶 母婴</a>
+</div></header>
 <div class="container">
-<h1>🔥 母婴好物精选</h1>
-<p>专业奶粉/纸尿裤/玩具/童装/孕产评测对比 · 帮你找到最适合的选择</p>
-</div>
-</header>
 
-<div class="container">
-<div class="main-content">
-<div class="articles">
-
-<article class="article">
-<h2><a href="/posts/2026-top-10.html">2026年奶粉推荐TOP10 — 实测对比不踩坑</a></h2>
-<div class="meta">📅 2026-06-17 | 🏷️ 评测推荐</div>
-<p class="excerpt">我们实测了市面上最热门的10款奶粉产品，从性价比、性能、口碑三个维度综合评分，帮你快速锁定最佳选择。</p>
-<a class="btn" href="/posts/2026-top-10.html">📖 查看完整评测 →</a>
-<div class="tags"><span class="tag">评测</span><span class="tag">推荐</span><span class="tag">性价比</span></div>
-</article>
-
-<article class="article">
-<h2><a href="/posts/budget-picks.html">预算有限怎么选？奶粉平价好物大盘点</a></h2>
-<div class="meta">📅 2026-06-17 | 🏷️ 平价推荐</div>
-<p class="excerpt">不一定最贵就是最好。我们整理了高性价比奶粉产品清单，¥500以内也能买到好东西。</p>
-<a class="btn" href="/posts/budget-picks.html">📖 查看完整推荐 →</a>
-<div class="tags"><span class="tag">平价</span><span class="tag">学生党</span><span class="tag">实惠</span></div>
-</article>
-
-<article class="article">
-<h2><a href="/posts/vs-comparison.html">热门奶粉横评：谁才是真正的王者？</a></h2>
-<div class="meta">📅 2026-06-17 | 🏷️ 对比评测</div>
-<p class="excerpt">我们把市面上3款最畅销的奶粉放在一起实测对比，从参数到体验逐一拆解差异。</p>
-<a class="btn" href="/posts/vs-comparison.html">📖 查看对比详情 →</a>
-<div class="tags"><span class="tag">对比</span><span class="tag">实测</span><span class="tag">深度</span></div>
-</article>
-
+    <div class="hero">
+        <h1>👶 母婴用品评测推荐</h1>
+        <p>母婴用品推荐 · AI每日更新 · 共14篇文章</p>
+    </div>
+    <div class="post-list">
+        <div class="post-card"><h3><a href="posts/daily-0619-2026年早教玩具推荐-0到3岁宝宝各阶段怎么选.html">2026年早教玩具推荐：0到3岁宝宝各阶段怎么选</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/daily-0619-2026年婴儿湿巾推荐-成分安全厚实好用全对比.html">2026年婴儿湿巾推荐：成分安全厚实好用全对比</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/batch-15-2026年孕妇装推荐-孕期也要美美的.html">2026年孕妇装推荐：孕期也要美美的</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/batch-14-2026年儿童防晒霜推荐-安全温和不刺激.html">2026年儿童防晒霜推荐：安全温和不刺激</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/batch-13-2026年宝宝辅食机推荐-做辅食不再麻烦.html">2026年宝宝辅食机推荐：做辅食不再麻烦</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/ai-07-2026年宝宝安全座椅怎么选-i-size认证品牌.html">2026年宝宝安全座椅怎么选？i-Size认证品牌推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/ai-07-2026年宝宝安全座椅怎么选-i-siz.html">2026年宝宝安全座椅怎么选？i-Size认证品牌推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/ai-05-2026年婴儿推车推荐-轻便型vs高景观vs双向全.html">2026年婴儿推车推荐：轻便型vs高景观vs双向全攻略</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/ai-05-2026年婴儿推车推荐-轻便型vs高景观.html">2026年婴儿推车推荐：轻便型vs高景观vs双向全攻略</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/05-待产包清单2026.html">待产包清单2026：新手妈妈入院待产必备物品 推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/04-2026儿童玩具推荐.html">2026儿童玩具推荐：0-3岁早教益智玩具清单 推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/03-婴儿推车怎么选-2026热门车型横向测评.html">婴儿推车怎么选？2026热门车型横向测评 推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/02-纸尿裤测评.html">纸尿裤测评：花王/帮宝适/好奇/大王，哪款最好用？ 推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div><div class="post-card"><h3><a href="posts/01-2026奶粉推荐.html">2026奶粉推荐：国产vs进口，哪个更适合中国宝宝？ 推荐</a></h3><div class="meta">📝 思思好物 · 👶 母婴用品</div></div>
+    </div>
+    
 </div>
-<aside class="sidebar-col">
-<div class="sidebar">
-<h3>📂 热门分类</h3>
-<ul>
-<li><a href="/category/奶粉.html">奶粉</a></li>
-<li><a href="/category/纸尿裤.html">纸尿裤</a></li>
-<li><a href="/category/玩具.html">玩具</a></li>
-<li><a href="/category/童装.html">童装</a></li>
-<li><a href="/category/孕产.html">孕产</a></li>
-</ul>
-</div>
-<div class="sidebar">
-<h3>🔥 热门关键词</h3>
-<div class="tags">
-<span class="tag">奶粉推荐</span>
-<span class="tag">纸尿裤测评</span>
-<span class="tag">婴儿推车推荐</span>
-<span class="tag">儿童玩具</span>
-<span class="tag">待产包清单</span>
-</div>
-</div>
-<div class="sidebar">
-<h3>📢 免责声明</h3>
-<p style="font-size:0.8em;color:#999">本站为AI自动生成的内容聚合平台。商品链接来自公开CPS推广渠道，购买后本站可能获得佣金。所有评测基于公开数据整理，仅供参考。</p>
-</div>
-</aside>
-</div>
-</div>
-
-<footer>
-<p>© 2026 思思好物推荐 | AI自动化内容引擎驱动</p>
-<p>母婴好物精选 · 每日更新 · 全网最低价监控</p>
-</footer>
+<footer>© 2026 思思好物 | AI驱动的内容引擎 | 每日更新</footer>
 </body>
 </html>

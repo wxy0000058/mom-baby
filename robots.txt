@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mom-baby.pages.dev/sitemap.xml
